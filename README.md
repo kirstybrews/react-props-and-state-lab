@@ -72,28 +72,28 @@ descendants:
     order to make the tests work properly. That means it's important to use the
     _exact_ URLs as described above, or your tests will fail!** -->
 
-5. Finally, App should pass a **callback** prop, `onAdoptPet`, to `<PetBrowser
+<!-- 5. Finally, App should pass a **callback** prop, `onAdoptPet`, to `<PetBrowser
    />`. This callback should take in an id for a pet, find the matching pet in
-   `state.pets` and set the `isAdopted` property to `true`.
+   `state.pets` and set the `isAdopted` property to `true`. -->
 
 ### `Filters`
 
-1.  Should receive an `onChangeType` callback prop. This callback prop gets
+<!-- 1.  Should receive an `onChangeType` callback prop. This callback prop gets
     called whenever the value of the `<select>` element changes with the
     **value** of the `<select>`
 
 2.  Should receive an `onFindPetsClick` callback prop. This callback prop gets
-    called when the users clicks the 'Find pets' button.
+    called when the users clicks the 'Find pets' button. -->
 
 ### `PetBrowser`
 
-1.  Should receive a `pets` prop. This is an array of pets that the component
+<!-- 1.  Should receive a `pets` prop. This is an array of pets that the component
     uses to render `<Pet />` components. App should determine which pets to pass
     down as props. App should be responsible for filtering this list based on
     the types of pets the user wants to see.
 
 2.  Should receive an `onAdoptPet` prop. This callback prop gets passed to its
-    `<Pet />` children components.
+    `<Pet />` children components. -->
 
 ### `Pet`
 <!-- 
@@ -107,9 +107,9 @@ descendants:
     is adopted, show the disabled button. Otherwise, show the primary button to
     adopt the pet. -->
 
-3.  Should receive an `onAdoptPet` callback prop. This callback prop gets called
+<!-- 3.  Should receive an `onAdoptPet` callback prop. This callback prop gets called
     with the pet's `id` when the user clicks the adopt pet button — _not_ when
-    they click the disabled button!
+    they click the disabled button! -->
 
 ## Resources
 
